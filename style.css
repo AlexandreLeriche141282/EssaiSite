@@ -1,0 +1,228 @@
+body{
+ margin:0px auto;
+ font-family:'montserrat', sans-serif;
+}
+/* tete de page */
+section.entete {
+    background: url(images/entête.jpg);
+    height: 80vh;
+    background-size: cover;
+    padding: 25px;
+}
+.lien-icone img{
+   
+    
+  
+        
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+
+    
+}
+header img {
+    width: 150px;
+}
+
+    nav.nav li {
+    color: white;
+}
+.landing-page{
+padding: 20px 50px;
+  
+}
+    /* page de bienvenue */
+    .big-title{
+        color: white;
+        font-size: 80px;
+        width: 700px;
+        
+        
+        font-family:'abril fatface';
+}
+.scroll-down{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 160px;
+}
+/************************* Menu de Navigation********************************/
+nav.nav{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    justify-content:space-between;
+    width: 100%;
+    
+     }
+nav.nav2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    width:300px ;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+  }
+nav.nav2 img{
+    width:50px;
+    
+}
+.menu{
+    text-decoration: none;
+    background: linear-gradient(to top, white 0%, white 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size 0.2s;
+
+}
+nav.nav a:hover{
+    background-size: 100% 100%;
+}
+/* Services */
+.services{
+    display: flex;
+   justify-content: space-evenly;
+   margin: 50px;
+}
+.services-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.service-details {
+ font-weight: 600;  
+ width: 200px; 
+ text-align: center;
+
+}
+.delivery-icon{
+    font-size: 50px;
+    color:#ADD981;
+}
+/* nos meilleurs ventes */
+.section-title{
+    font-size: 50px;
+    font-family: Abril FatFace, cursive;
+    font-weight: 100;
+    position: relative;
+}
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: ;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+.best-plants{
+    min-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bests-item{
+    margin: 100px;
+}
+.plant-box{
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    
+    
+}
+.no-grid{
+    min-width: 350px;
+    height: 500px;
+    flex: 1;  
+}
+.plant1{
+    background-image:url(./images/nos_meilleures_ventes/1.jpg);
+}
+.plant2{
+    background-image:url(./images/nos_meilleures_ventes/2.jpg);
+}
+.plant3{
+    background-image:url(./images/nos_meilleures_ventes/3.jpg);
+}
+.plant4{
+    background-image:url(./images/nos_meilleures_ventes/4.jpg);
+}
+.plant-details{
+    background-color: #FFFFFFDF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 20px;
+}
+.plant-name{
+    font-size: 22px;
+    font-weight:600 ;
+    line-height: 3px;
+}
+.plant-price{
+    color:#ADD981 ;
+    font-weight: 800;
+    line-height: 3px;
+    font-size: 14px;
+}
+
+
+.all-plants{
+margin: 100px;  
+}
+.plant-grid{
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+}
+.plant-grid1{
+    background-image: url(./images/nos_plantes/1.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.plant-grid2{
+    background-image: url(./images/nos_plantes/2.jpg);
+    grid-column: 3/5;
+    
+}
+.plant-grid3{
+    background-image: url(./images/nos_plantes/3.jpg);
+    grid-column: 3/5;
+}
+.plant-grid4{
+    background-image: url(./images/nos_plantes/4.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+.plant-grid5{
+    background-image: url(./images/nos_plantes/5.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.plant-grid6{
+    background-image: url(./images/nos_plantes/6.jpg);
+grid-column: 4;
+grid-row: 3/5;
+}
+/* Footer */
+Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+footer a.cgv{
+    text-decoration: none;
+    color: black;
+
+}
